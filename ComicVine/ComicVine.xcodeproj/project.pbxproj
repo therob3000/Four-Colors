@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27786B8418AC7155004BDA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27786B8318AC7155004BDA64 /* Foundation.framework */; };
+		27786BAD18AC71B3004BDA64 /* CVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27786BAC18AC71B3004BDA64 /* CVRequest.m */; };
+		2781B6EB18AF5A3E00EC2C1F /* CVIssuesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2781B6EA18AF5A3E00EC2C1F /* CVIssuesRequest.m */; };
+		2781B6EE18AF5AA300EC2C1F /* CVIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2781B6ED18AF5AA300EC2C1F /* CVIssue.m */; };
+		278BFA3C18AC7B1700DA8E6C /* CVVolumesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 278BFA3B18AC7B1700DA8E6C /* CVVolumesRequest.m */; };
+		278BFA4118AC7E7800DA8E6C /* CVObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 278BFA4018AC7E7800DA8E6C /* CVObject.m */; };
+		278BFA4418AC7F6500DA8E6C /* CVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 278BFA4318AC7F6500DA8E6C /* CVImage.m */; };
+		278BFA4718AC7FB700DA8E6C /* CVVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = 278BFA4618AC7FB700DA8E6C /* CVVolume.m */; };
+		27B9076018B0A727000CC56C /* CVIssueRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B9075F18B0A727000CC56C /* CVIssueRequest.m */; };
+		27CA784A18B5BDBD00F33D3C /* CVVolumeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CA784918B5BDBD00F33D3C /* CVVolumeRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27786B7E18AC7155004BDA64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27786B8018AC7155004BDA64 /* libComicVine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComicVine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27786B8318AC7155004BDA64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27786B8718AC7155004BDA64 /* ComicVine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComicVine-Prefix.pch"; sourceTree = "<group>"; };
+		27786B9118AC7155004BDA64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27786B9418AC7155004BDA64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		27786BAB18AC71B3004BDA64 /* CVRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRequest.h; sourceTree = "<group>"; };
+		27786BAC18AC71B3004BDA64 /* CVRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRequest.m; sourceTree = "<group>"; };
+		2781B6E918AF5A3E00EC2C1F /* CVIssuesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVIssuesRequest.h; sourceTree = "<group>"; };
+		2781B6EA18AF5A3E00EC2C1F /* CVIssuesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVIssuesRequest.m; sourceTree = "<group>"; };
+		2781B6EC18AF5AA300EC2C1F /* CVIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVIssue.h; sourceTree = "<group>"; };
+		2781B6ED18AF5AA300EC2C1F /* CVIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVIssue.m; sourceTree = "<group>"; };
+		278BFA3A18AC7B1700DA8E6C /* CVVolumesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVVolumesRequest.h; sourceTree = "<group>"; };
+		278BFA3B18AC7B1700DA8E6C /* CVVolumesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVVolumesRequest.m; sourceTree = "<group>"; };
+		278BFA3D18AC7C6300DA8E6C /* VineConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VineConstants.h; sourceTree = "<group>"; };
+		278BFA3F18AC7E7800DA8E6C /* CVObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVObject.h; sourceTree = "<group>"; };
+		278BFA4018AC7E7800DA8E6C /* CVObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVObject.m; sourceTree = "<group>"; };
+		278BFA4218AC7F6500DA8E6C /* CVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImage.h; sourceTree = "<group>"; };
+		278BFA4318AC7F6500DA8E6C /* CVImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImage.m; sourceTree = "<group>"; };
+		278BFA4518AC7FB700DA8E6C /* CVVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVVolume.h; sourceTree = "<group>"; };
+		278BFA4618AC7FB700DA8E6C /* CVVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVVolume.m; sourceTree = "<group>"; };
+		27B9075E18B0A727000CC56C /* CVIssueRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVIssueRequest.h; sourceTree = "<group>"; };
+		27B9075F18B0A727000CC56C /* CVIssueRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVIssueRequest.m; sourceTree = "<group>"; };
+		27CA784818B5BDBD00F33D3C /* CVVolumeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVVolumeRequest.h; sourceTree = "<group>"; };
+		27CA784918B5BDBD00F33D3C /* CVVolumeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVVolumeRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27786B7D18AC7155004BDA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27786B8418AC7155004BDA64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27786B7718AC7155004BDA64 = {
+			isa = PBXGroup;
+			children = (
+				27786B8518AC7155004BDA64 /* ComicVine */,
+				27786B8218AC7155004BDA64 /* Frameworks */,
+				27786B8118AC7155004BDA64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27786B8118AC7155004BDA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27786B8018AC7155004BDA64 /* libComicVine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27786B8218AC7155004BDA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27786B8318AC7155004BDA64 /* Foundation.framework */,
+				27786B9118AC7155004BDA64 /* XCTest.framework */,
+				27786B9418AC7155004BDA64 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27786B8518AC7155004BDA64 /* ComicVine */ = {
+			isa = PBXGroup;
+			children = (
+				278BFA3D18AC7C6300DA8E6C /* VineConstants.h */,
+				278BFA3E18AC7E4A00DA8E6C /* Objects */,
+				278BFA3918AC7A2900DA8E6C /* Requests */,
+				27786B8618AC7155004BDA64 /* Supporting Files */,
+			);
+			path = ComicVine;
+			sourceTree = "<group>";
+		};
+		27786B8618AC7155004BDA64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27786B8718AC7155004BDA64 /* ComicVine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278BFA3918AC7A2900DA8E6C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				27B9075E18B0A727000CC56C /* CVIssueRequest.h */,
+				27B9075F18B0A727000CC56C /* CVIssueRequest.m */,
+				2781B6E918AF5A3E00EC2C1F /* CVIssuesRequest.h */,
+				2781B6EA18AF5A3E00EC2C1F /* CVIssuesRequest.m */,
+				27786BAB18AC71B3004BDA64 /* CVRequest.h */,
+				27786BAC18AC71B3004BDA64 /* CVRequest.m */,
+				27CA784818B5BDBD00F33D3C /* CVVolumeRequest.h */,
+				27CA784918B5BDBD00F33D3C /* CVVolumeRequest.m */,
+				278BFA3A18AC7B1700DA8E6C /* CVVolumesRequest.h */,
+				278BFA3B18AC7B1700DA8E6C /* CVVolumesRequest.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		278BFA3E18AC7E4A00DA8E6C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				278BFA4218AC7F6500DA8E6C /* CVImage.h */,
+				278BFA4318AC7F6500DA8E6C /* CVImage.m */,
+				2781B6EC18AF5AA300EC2C1F /* CVIssue.h */,
+				2781B6ED18AF5AA300EC2C1F /* CVIssue.m */,
+				278BFA3F18AC7E7800DA8E6C /* CVObject.h */,
+				278BFA4018AC7E7800DA8E6C /* CVObject.m */,
+				278BFA4518AC7FB700DA8E6C /* CVVolume.h */,
+				278BFA4618AC7FB700DA8E6C /* CVVolume.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27786B7F18AC7155004BDA64 /* ComicVine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27786BA318AC7155004BDA64 /* Build configuration list for PBXNativeTarget "ComicVine" */;
+			buildPhases = (
+				27786B7C18AC7155004BDA64 /* Sources */,
+				27786B7D18AC7155004BDA64 /* Frameworks */,
+				27786B7E18AC7155004BDA64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComicVine;
+			productName = ComicVine;
+			productReference = 27786B8018AC7155004BDA64 /* libComicVine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27786B7818AC7155004BDA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alexander Appa";
+			};
+			buildConfigurationList = 27786B7B18AC7155004BDA64 /* Build configuration list for PBXProject "ComicVine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27786B7718AC7155004BDA64;
+			productRefGroup = 27786B8118AC7155004BDA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27786B7F18AC7155004BDA64 /* ComicVine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27786B7C18AC7155004BDA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CA784A18B5BDBD00F33D3C /* CVVolumeRequest.m in Sources */,
+				278BFA4118AC7E7800DA8E6C /* CVObject.m in Sources */,
+				2781B6EB18AF5A3E00EC2C1F /* CVIssuesRequest.m in Sources */,
+				27786BAD18AC71B3004BDA64 /* CVRequest.m in Sources */,
+				27B9076018B0A727000CC56C /* CVIssueRequest.m in Sources */,
+				278BFA3C18AC7B1700DA8E6C /* CVVolumesRequest.m in Sources */,
+				278BFA4718AC7FB700DA8E6C /* CVVolume.m in Sources */,
+				2781B6EE18AF5AA300EC2C1F /* CVIssue.m in Sources */,
+				278BFA4418AC7F6500DA8E6C /* CVImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27786BA118AC7155004BDA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27786BA218AC7155004BDA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27786BA418AC7155004BDA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ComicVine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicVine/ComicVine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		27786BA518AC7155004BDA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ComicVine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComicVine/ComicVine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27786B7B18AC7155004BDA64 /* Build configuration list for PBXProject "ComicVine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27786BA118AC7155004BDA64 /* Debug */,
+				27786BA218AC7155004BDA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27786BA318AC7155004BDA64 /* Build configuration list for PBXNativeTarget "ComicVine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27786BA418AC7155004BDA64 /* Debug */,
+				27786BA518AC7155004BDA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27786B7818AC7155004BDA64 /* Project object */;
+}
