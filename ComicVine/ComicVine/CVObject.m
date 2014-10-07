@@ -12,6 +12,8 @@
 
 #pragma mark - Lifecycle
 
+@synthesize description = _description;
+
 - (id) initWithRawData:(NSDictionary*)rawData {
     self = [super init];
     
